@@ -68,8 +68,6 @@ GEM
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
     mime-types (2.6.2)
-      mime-types-data (~> 2.0)
-    mime-types-data (2.6.2)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.12.0)
@@ -152,6 +150,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  mime-types (= 2.6.2)
   pg
   rails (= 4.2.6)
   rails_12factor

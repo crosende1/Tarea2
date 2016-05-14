@@ -6,3 +6,5 @@ before_deploy:
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
   - cp config/database.yml.travis config/database.yml
+
+  ruby: '2.3.0'
